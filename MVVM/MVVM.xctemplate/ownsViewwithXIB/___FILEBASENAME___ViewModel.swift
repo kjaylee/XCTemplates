@@ -17,7 +17,7 @@ import RxCocoa
  */
 class ___FILEBASENAMEASIDENTIFIER___ {
     private let model: ___VARIABLE_productName:identifier___Model
-    init(withModel model: ___VARIABLE_productName:identifier___Model) {
+    init(withModel model: ___VARIABLE_productName:identifier___Model = ___VARIABLE_productName___Model()) {
         self.model = model
     }
 }

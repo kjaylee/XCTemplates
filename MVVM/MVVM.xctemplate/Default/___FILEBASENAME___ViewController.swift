@@ -19,7 +19,7 @@ import SnapKit
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     let viewModel: ___VARIABLE_productName___ViewModel
     init() {
-        viewModel = ___VARIABLE_productName___ViewModel(withModel: ___VARIABLE_productName___Model())
+        viewModel = ___VARIABLE_productName___ViewModel()
         super.init(nibName: nil, bundle: nil)
     }
     required init?(coder _: NSCoder) {

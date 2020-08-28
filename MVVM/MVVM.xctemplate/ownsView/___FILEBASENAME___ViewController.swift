@@ -20,7 +20,7 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     let viewModel: ___VARIABLE_productName___ViewModel
     let mainView: ___VARIABLE_productName___View
     init() {
-        viewModel = ___VARIABLE_productName___ViewModel(withModel: ___VARIABLE_productName___Model())
+        viewModel = ___VARIABLE_productName___ViewModel()
         mainView = ___VARIABLE_productName___View()
         super.init(nibName: nil, bundle: nil)
         mainView.configure(withViewModel: viewModel)

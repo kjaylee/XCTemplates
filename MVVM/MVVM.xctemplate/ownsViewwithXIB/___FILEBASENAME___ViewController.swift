@@ -20,7 +20,7 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     let viewModel: ___VARIABLE_productName___ViewModel
     let mainView: ___VARIABLE_productName___View
     init() {
-        viewModel = ___VARIABLE_productName___ViewModel(withModel: ___VARIABLE_productName___Model())
+        viewModel = ___VARIABLE_productName___ViewModel()
         let bundle = Bundle(for: ___VARIABLE_productName___View.self)
         let nibName = "___VARIABLE_productName___View"
         guard let aView = UINib(nibName: nibName, bundle: bundle).instantiate(withOwner: nil, options: nil).last as? ___VARIABLE_productName___View else {
