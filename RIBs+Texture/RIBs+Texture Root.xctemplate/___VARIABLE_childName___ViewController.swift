@@ -2,7 +2,6 @@
 
 import RIBs
 import RxSwift
-import UIKit
 import AsyncDisplayKit
 
 /**
