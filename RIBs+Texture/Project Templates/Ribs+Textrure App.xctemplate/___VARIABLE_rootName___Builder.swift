@@ -64,7 +64,7 @@ final class ___VARIABLE_rootName___Builder: Builder<___VARIABLE_rootName___Depen
     }
     func build() -> LaunchRouting {
         let component = ___VARIABLE_rootName___Component(dependency: dependency)
-        let viewController = ___VARIABLE_rootName___ViewController()
+        let viewController = ___VARIABLE_rootName___NavigationController()
         let interactor = ___VARIABLE_rootName___Interactor(presenter: viewController)
         return ___VARIABLE_rootName___Router(interactor: interactor, viewController: viewController)
     }

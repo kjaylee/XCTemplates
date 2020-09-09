@@ -69,16 +69,9 @@
 				</dict>
 				<key>Swift</key>
 				<dict>
-					<key>Definitions</key>
-					<dict>
-						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
-						<string>let window = UIWindow(frame: UIScreen.main.bounds)
-self.window = window
-self.launchRouter = RootBuilder(dependency: AppComponent()).build()
-self.launchRouter?.launchFromWindow(window)</string>
-					</dict>
 					<key>Nodes</key>
 					<array>
+						<string>AppDelegate.swift</string>
 						<string>AppComponent.swift</string>
 						<string>___VARIABLE_childName___ViewController.swift</string>
 						<string>___VARIABLE_rootName___Builder.swift</string>
@@ -92,6 +85,11 @@ self.launchRouter?.launchFromWindow(window)</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>AppDelegate.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>AppDelegate.swift</string>
+		</dict>
 		<key>AppComponent.swift</key>
 		<dict>
 			<key>Path</key>
