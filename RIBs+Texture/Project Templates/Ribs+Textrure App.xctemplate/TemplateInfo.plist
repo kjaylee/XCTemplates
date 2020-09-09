@@ -56,15 +56,7 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>AppDelegate.m:imports:importHeader:___VARIABLE_rootName___.h</string>
-						<string>___VARIABLE_rootName___.h:comments</string>
-						<string>___VARIABLE_rootName___.h:imports:importCocoa</string>
-						<string>___VARIABLE_rootName___.h:interface(___FILEBASENAME___ : UIViewController)</string>
-						<string>___VARIABLE_rootName___.m:comments</string>
-						<string>___VARIABLE_rootName___.m:imports:importHeader:ViewController.h</string>
-						<string>___VARIABLE_rootName___.m:extension</string>
-						<string>___VARIABLE_rootName___.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
-						<string>___VARIABLE_rootName___.m:implementation:methods:viewDidLoad:super</string>
+						<string>README.md</string>
 					</array>
 				</dict>
 				<key>Swift</key>
@@ -119,6 +111,11 @@
 		<dict>
 			<key>Path</key>
 			<string>___VARIABLE_rootName___NavigationController.swift</string>
+		</dict>
+		<key>README.md</key>
+		<dict>
+			<key>Path</key>
+			<string>README.md</string>
 		</dict>
 	</dict>
 </dict>
