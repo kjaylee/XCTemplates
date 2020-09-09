@@ -27,7 +27,7 @@ protocol ___VARIABLE_rootName___Dependency: Dependency {
 * Author: ___FULLUSERNAME___
 * Since: ___DATE___
 */
-final class ___VARIABLE_rootName___Component: Component<___VARIABLE_productName___Dependency> {
+final class ___VARIABLE_rootName___Component: Component<___VARIABLE_rootName___Dependency> {
 
     // TODO: Declare 'fileprivate' dependencies that are only used by this RIB.
 }

@@ -28,7 +28,7 @@ protocol ___VARIABLE_rootName___Routing: ViewableRouting {
 * Since: ___DATE___
 */
 protocol ___VARIABLE_rootName___Presentable: Presentable {
-    var listener: ___VARIABLE_productName___PresentableListener? { get set }
+    var listener: ___VARIABLE_rootName___PresentableListener? { get set }
     // TODO: Declare methods the interactor can invoke the presenter to present data.
 }
 /**
