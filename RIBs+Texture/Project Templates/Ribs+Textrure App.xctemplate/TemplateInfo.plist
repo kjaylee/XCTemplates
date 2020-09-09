@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.pipln.ribs.texture</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+		<string>com.apple.dt.unit.cocoaTouchApplicationBase</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a RIBs. </string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>rootName</string>
+			<key>Required</key>
+			<string>true</string>
+			<key>Name</key>
+			<string>Root name:</string>
+			<key>Description</key>
+			<string>The name of the RIB Root to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Root</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>childName</string>
+			<key>Required</key>
+			<string>true</string>
+			<key>Name</key>
+			<string>Base name:</string>
+			<key>Description</key>
+			<string>The name of the BaseViewController to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Base</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>AppDelegate.m:imports:importHeader:___VARIABLE_rootName___.h</string>
+						<string>___VARIABLE_rootName___.h:comments</string>
+						<string>___VARIABLE_rootName___.h:imports:importCocoa</string>
+						<string>___VARIABLE_rootName___.h:interface(___FILEBASENAME___ : UIViewController)</string>
+						<string>___VARIABLE_rootName___.m:comments</string>
+						<string>___VARIABLE_rootName___.m:imports:importHeader:ViewController.h</string>
+						<string>___VARIABLE_rootName___.m:extension</string>
+						<string>___VARIABLE_rootName___.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+						<string>___VARIABLE_rootName___.m:implementation:methods:viewDidLoad:super</string>
+					</array>
+				</dict>
+				<key>Swift</key>
+				<dict>
+					<key>Definitions</key>
+					<dict>
+						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<string>let window = UIWindow(frame: UIScreen.main.bounds)
+self.window = window
+self.launchRouter = RootBuilder(dependency: AppComponent()).build()
+self.launchRouter?.launchFromWindow(window)</string>
+					</dict>
+					<key>Nodes</key>
+					<array>
+						<string>AppComponent.swift</string>
+						<string>___VARIABLE_childName___ViewController.swift</string>
+						<string>___VARIABLE_rootName___Builder.swift</string>
+						<string>___VARIABLE_rootName___Interactor.swift</string>
+						<string>___VARIABLE_rootName___Router.swift</string>
+						<string>___VARIABLE_rootName___NavigationController.swift</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>AppComponent.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>AppComponent.swift</string>
+		</dict>
+		<key>___VARIABLE_childName___ViewController.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_childName___ViewController.swift</string>
+		</dict>
+		<key>___VARIABLE_rootName___Builder.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_rootName___Builder.swift</string>
+		</dict>
+		<key>___VARIABLE_rootName___Interactor.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_rootName___Interactor.swift</string>
+		</dict>
+		<key>___VARIABLE_rootName___Router.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_rootName___Router.swift</string>
+		</dict>
+		<key>___VARIABLE_rootName___NavigationController.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_rootName___NavigationController.swift</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

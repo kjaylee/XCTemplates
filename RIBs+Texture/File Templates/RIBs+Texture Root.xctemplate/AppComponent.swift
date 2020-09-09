@@ -17,7 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 */
 
 import RIBs
+/**
+## 클래스 설명
+* ___VARIABLE_productName___Router
+* <# 요약 #>
 
+## 기본정보
+* Note: ___VARIABLE_productName___
+* See: <# 제플린 없음 #>
+* Author: ___FULLUSERNAME___
+* Since: ___DATE___
+*/
 class AppComponent: Component<EmptyDependency>, ___VARIABLE_productName___Dependency {
     init() {
         super.init(dependency: EmptyComponent())
