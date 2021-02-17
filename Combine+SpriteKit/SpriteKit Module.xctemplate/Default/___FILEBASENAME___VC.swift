@@ -15,7 +15,8 @@ import Combine
  * Since: ___DATE___
  */
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
-    let viewModel: ___VARIABLE_productName___ViewModel
+    private let viewModel: ___VARIABLE_productName___ViewModel
+    private var subscriptions = Set<AnyCancellable>()
     init(nibName: String?) {
         viewModel = ___VARIABLE_productName___ViewModel()
         super.init(nibName: nibName, bundle: nil)

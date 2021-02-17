@@ -33,25 +33,9 @@
 			<key>Name</key>
 			<string>Combine+SpriteKit name:</string>
 			<key>Description</key>
-			<string>The name of the Combine+SpriteKit to create</string>
+			<string>The name of the Combine+SpriteKit module to create</string>
 			<key>Type</key>
 			<string>text</string>
-			<key>NotPersisted</key>
-			<string>true</string>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>withStoryboard</string>
-			<key>Required</key>
-			<string>true</string>
-			<key>Name</key>
-			<string>Adds Storyboard file</string>
-			<key>Description</key>
-			<string>Whether this Combine+SpriteKit module contains a corresponding view with Storyboard</string>
-			<key>Type</key>
-			<string>checkbox</string>
-			<key>Default</key>
-			<string>false</string>
 			<key>NotPersisted</key>
 			<string>true</string>
 		</dict>

@@ -2,6 +2,7 @@
 
 import UIKit
 import SpriteKit
+import Combine
 /**
  ## 클래스 설명
  * ___VARIABLE_productName___VC
@@ -14,7 +15,8 @@ import SpriteKit
  * Since: ___DATE___
  */
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
-    let viewModel: ___VARIABLE_productName___ViewModel
+    private let viewModel: ___VARIABLE_productName___ViewModel
+    private var subscriptions = Set<AnyCancellable>()
     init(nibName: String?) {
         viewModel = ___VARIABLE_productName___ViewModel()
         super.init(nibName: nibName, bundle: nil)

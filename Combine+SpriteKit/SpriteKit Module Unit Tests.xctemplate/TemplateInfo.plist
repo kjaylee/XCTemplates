@@ -5,9 +5,9 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Summary</key>
-	<string>MVVM Unit Tests</string>
+	<string>Combine+SpriteKit Unit Tests</string>
 	<key>Description</key>
-	<string>MVVM unit test files.</string>
+	<string>Combine+SpriteKit unit test files.</string>
 	<key>SortOrder</key>
 	<string>2</string>
 	<key>AllowedTypes</key>
@@ -31,9 +31,9 @@
 			<key>Required</key>
 			<string>true</string>
 			<key>Name</key>
-			<string>Name of the MVVM to test:</string>
+			<string>Name of the Combine+SpriteKit to test:</string>
 			<key>Description</key>
-			<string>The name of the MVVM to unit test for. Creates a test.</string>
+			<string>The name of the Combine+SpriteKit to unit test for. Creates a test.</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>
