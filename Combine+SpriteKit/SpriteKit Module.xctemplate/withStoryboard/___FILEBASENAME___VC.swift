@@ -39,11 +39,19 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
+        initialized()
+        binded()
+    }
+    func initialized() {
+        //Background
         guard skView != nil else {
             fatalError("Storyboard link error.")
         }
         skView.allowsTransparency = true
         skView.presentScene(scene)
+    }
+    func binded() {
+        //Do bind.
     }
 }
 extension ___FILEBASENAMEASIDENTIFIER___: SKSceneDelegate {
