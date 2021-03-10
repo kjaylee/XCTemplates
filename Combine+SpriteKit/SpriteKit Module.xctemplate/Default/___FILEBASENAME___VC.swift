@@ -54,6 +54,7 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
         //Do bind.
     }
 }
+//MARK: SKSceneDelegate
 extension ___FILEBASENAMEASIDENTIFIER___: SKSceneDelegate {
     func update(_ currentTime: TimeInterval, for scene: SKScene) {
 
@@ -69,5 +70,15 @@ extension ___FILEBASENAMEASIDENTIFIER___: SKSceneDelegate {
     }
     func didFinishUpdate(for scene: SKScene){
 
+    }
+}
+//MARK: Class method
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    static func instance() -> ___FILEBASENAMEASIDENTIFIER___ {
+        let name = "___VARIABLE_productName___"
+        guard let vc = UIStoryboard(name: name, bundle: nil).instantiateViewController(identifier: name + "VC") as? GlobalVC else {
+            fatalError("Not found ___VARIABLE_productName___ in storyboard.")
+        }
+        return vc
     }
 }
