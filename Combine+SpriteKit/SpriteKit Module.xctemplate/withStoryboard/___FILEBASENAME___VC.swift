@@ -76,7 +76,7 @@ extension ___FILEBASENAMEASIDENTIFIER___: SKSceneDelegate {
 extension ___FILEBASENAMEASIDENTIFIER___ {
     static func instance() -> ___FILEBASENAMEASIDENTIFIER___ {
         let name = "___VARIABLE_productName___"
-        guard let vc = UIStoryboard(name: name, bundle: nil).instantiateViewController(identifier: name + "VC") as? GlobalVC else {
+        guard let vc = UIStoryboard(name: name, bundle: nil).instantiateViewController(identifier: name + "VC") as? ___FILEBASENAMEASIDENTIFIER___ else {
             fatalError("Not found ___VARIABLE_productName___ in storyboard.")
         }
         return vc

@@ -1,7 +1,6 @@
 //___FILEHEADER___
 
 import UIKit
-import SpriteKit
 import Combine
 /**
  ## 클래스 설명
@@ -25,51 +24,16 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
         viewModel = ___VARIABLE_productName___ViewModel()
         super.init(coder: coder)
     }
-    @IBOutlet weak var skView: SKView!
-    lazy var scene: ___VARIABLE_productName___Scene = {
-        guard let scene = ___VARIABLE_productName___Scene(fileNamed: "___VARIABLE_productName___") else {
-            fatalError()
-        }
-        scene.size = skView.bounds.size
-        scene.scaleMode = .resizeFill
-        scene.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-        scene.backgroundColor = .clear
-        scene.delegate = self
-        return scene
-    }()
     override func viewDidLoad() {
         super.viewDidLoad()
         initialized()
         binded()
     }
     func initialized() {
-        //Background
-        guard skView != nil else {
-            fatalError("Storyboard link error.")
-        }
-        skView.allowsTransparency = true
-        skView.presentScene(scene)
+        //Do initalize.
     }
     func binded() {
         //Do bind.
-    }
-}
-//MARK: SKSceneDelegate
-extension ___FILEBASENAMEASIDENTIFIER___: SKSceneDelegate {
-    func update(_ currentTime: TimeInterval, for scene: SKScene) {
-
-    }
-    func didEvaluateActions(for scene: SKScene){
-
-    }
-    func didSimulatePhysics(for scene: SKScene){
-
-    }
-    func didApplyConstraints(for scene: SKScene){
-
-    }
-    func didFinishUpdate(for scene: SKScene){
-
     }
 }
 //MARK: Class method
@@ -78,7 +42,7 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
     static func instance() -> ___FILEBASENAMEASIDENTIFIER___ {
         let name = "___VARIABLE_productName___"
         guard let vc = UIStoryboard(name: name, bundle: nil).instantiateViewController(identifier: name + "VC") as? ___FILEBASENAMEASIDENTIFIER___ else {
-            fatalError("Not found ___VARIABLE_productName___ in storyboard.")
+            fatalError("Failed load ___VARIABLE_productName___ in storyboard.")
         }
         return vc
     }
