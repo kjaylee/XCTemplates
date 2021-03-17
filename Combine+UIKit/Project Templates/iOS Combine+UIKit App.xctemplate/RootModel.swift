@@ -3,7 +3,7 @@
 import Foundation
 /**
  ## 클래스 설명
- * ___VARIABLE_productName___Model
+ * ___FILEBASENAMEASIDENTIFIER___
  * <# 요약 #>
  
  ## 기본정보

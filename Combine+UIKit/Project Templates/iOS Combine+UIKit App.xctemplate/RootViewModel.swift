@@ -5,7 +5,7 @@ import Combine
 
 /**
  ## 클래스 설명
- * ___VARIABLE_productName___ViewModel
+ * ___FILEBASENAMEASIDENTIFIER___
  * <# 요약 #>
  
  ## 기본정보
@@ -15,9 +15,9 @@ import Combine
  * Since: ___DATE___
  */
 class ___FILEBASENAMEASIDENTIFIER___ {
-    private let model: ___VARIABLE_productName:identifier___Model
+    private let model: RootModel
     private var subscriptions = Set<AnyCancellable>()
-    init(withModel model: ___VARIABLE_productName:identifier___Model = ___VARIABLE_productName___Model()) {
+    init(withModel model: RootModel = RootModel()) {
         self.model = model
     }
 }
