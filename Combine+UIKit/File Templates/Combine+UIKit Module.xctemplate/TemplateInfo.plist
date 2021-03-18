@@ -55,6 +55,44 @@
 			<key>NotPersisted</key>
 			<string>true</string>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>withUIControlExtention</string>
+			<key>Required</key>
+			<string>true</string>
+			<key>Name</key>
+			<string>Adds UIControl+Combine.swift file</string>
+			<key>Description</key>
+			<string>Adds UIControl+Combine.swift file.</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<string>false</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>UIControl+Combine.swift</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>UIControl+Combine.swift</key>
+						<dict>
+							<key>Path</key>
+							<string>UIControl+Combine.swift</string>
+							<key>SortOrder</key>
+							<string>190</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>false</key>
+				<dict/>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>

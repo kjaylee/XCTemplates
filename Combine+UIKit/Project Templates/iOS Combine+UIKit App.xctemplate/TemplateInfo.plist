@@ -51,41 +51,6 @@
 			<key>SortOrder</key>
 			<string>99</string>
 		</dict>
-		<key>Alert.swift</key>
-		<dict>
-			<key>Path</key>
-			<string>Alert.swift</string>
-			<key>SortOrder</key>
-			<string>150</string>
-		</dict>
-		<key>AlertAction.swift</key>
-		<dict>
-			<key>Path</key>
-			<string>AlertAction.swift</string>
-			<key>SortOrder</key>
-			<string>150</string>
-		</dict>
-		<key>NibExampleView.swift</key>
-		<dict>
-			<key>Path</key>
-			<string>NibExampleView.swift</string>
-			<key>SortOrder</key>
-			<string>150</string>
-		</dict>
-		<key>NibExampleView.xib</key>
-		<dict>
-			<key>Path</key>
-			<string>NibExampleView.xib</string>
-			<key>SortOrder</key>
-			<string>150</string>
-		</dict>
-		<key>NibView.swift</key>
-		<dict>
-			<key>Path</key>
-			<string>NibView.swift</string>
-			<key>SortOrder</key>
-			<string>180</string>
-		</dict>
 		<key>Font.swift</key>
 		<dict>
 			<key>Path</key>
@@ -144,11 +109,6 @@
 		<string>RootViewController.swift</string>
 		<string>RootViewModel.swift</string>
 		<string>RootModel.swift</string>
-		<string>Alert.swift</string>
-		<string>AlertAction.swift</string>
-		<string>NibExampleView.swift</string>
-		<string>NibExampleView.xib</string>
-		<string>NibView.swift</string>
 		<string>Font.swift</string>
 		<string>UIControl+Combine.swift</string>
 		<string>UIColor+Utils.swift</string>
@@ -193,6 +153,76 @@
 			<string>Swift</string>
 			<key>Type</key>
 			<string>popup</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>withSwiftyEntryAlert</string>
+			<key>Required</key>
+			<string>true</string>
+			<key>Name</key>
+			<string>Add SwiftyEntry Alert.</string>
+			<key>Description</key>
+			<string>Add SwiftyEntry Alert.</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<string>true</string>
+			<key>Units</key>
+			<dict>
+				<key>false</key>
+				<dict/>
+				<key>true</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Alert.swift</string>
+						<string>AlertAction.swift</string>
+						<string>NibExampleView.swift</string>
+						<string>NibExampleView.xib</string>
+						<string>NibView.swift</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>Alert.swift</key>
+						<dict>
+							<key>Path</key>
+							<string>Alert.swift</string>
+							<key>SortOrder</key>
+							<string>150</string>
+						</dict>
+						<key>AlertAction.swift</key>
+						<dict>
+							<key>Path</key>
+							<string>AlertAction.swift</string>
+							<key>SortOrder</key>
+							<string>150</string>
+						</dict>
+						<key>NibExampleView.swift</key>
+						<dict>
+							<key>Path</key>
+							<string>NibExampleView.swift</string>
+							<key>SortOrder</key>
+							<string>150</string>
+						</dict>
+						<key>NibExampleView.xib</key>
+						<dict>
+							<key>Path</key>
+							<string>NibExampleView.xib</string>
+							<key>SortOrder</key>
+							<string>150</string>
+						</dict>
+						<key>NibView.swift</key>
+						<dict>
+							<key>Path</key>
+							<string>NibView.swift</string>
+							<key>SortOrder</key>
+							<string>180</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
 		</dict>
 	</array>
 </dict>
