@@ -77,6 +77,44 @@
 				<dict/>
 			</dict>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>withASListSectionController</string>
+			<key>Required</key>
+			<string>true</string>
+			<key>Name</key>
+			<string>Adds ASListSectionController.swift file</string>
+			<key>Description</key>
+			<string>Adds ASListSectionController.swift file.</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<string>false</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>ASListSectionController.swift</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>ASListSectionController.swift</key>
+						<dict>
+							<key>Path</key>
+							<string>ASListSectionController.swift</string>
+							<key>SortOrder</key>
+							<string>200</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>false</key>
+				<dict/>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>
