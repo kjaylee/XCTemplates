@@ -13,23 +13,20 @@ import Combine
  * Author:  ___FULLUSERNAME___
  * Since: ___DATE___
  */
-class ___FILEBASENAMEASIDENTIFIER___: ASDKViewController<ASDisplayNode> {
+class ___FILEBASENAMEASIDENTIFIER___: ASDKViewController<___VARIABLE_productName___Node> {
     private let viewModel: ___VARIABLE_productName___ViewModel
     private var subscriptions = Set<AnyCancellable>()
     override init() {
         viewModel = ___VARIABLE_productName___ViewModel()
-        super.init()
-        initialized()
-        binded()
+        super.init(node: ___VARIABLE_productName___Node())
     }
     required init?(coder: NSCoder) {
-        viewModel = ___VARIABLE_productName___ViewModel()
-        super.init(coder: coder)
-        initialized()
-        binded()
+        fatalError("init(coder:) has not been implemented")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        initialized()
+        binded()
     }
     func initialized() {
         //Do initalize.

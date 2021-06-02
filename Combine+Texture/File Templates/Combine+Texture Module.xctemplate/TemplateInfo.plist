@@ -41,13 +41,13 @@
 		</dict>
 		<dict>
 			<key>Identifier</key>
-			<string>withUIControlExtention</string>
+			<string>withASControlNodeExtention</string>
 			<key>Required</key>
 			<string>true</string>
 			<key>Name</key>
-			<string>Adds UIControl+Combine.swift file</string>
+			<string>Adds ASControlNode+Combine.swift file</string>
 			<key>Description</key>
-			<string>Adds UIControl+Combine.swift file.</string>
+			<string>Adds ASControlNode+Combine.swift file.</string>
 			<key>Type</key>
 			<string>checkbox</string>
 			<key>Default</key>
@@ -60,14 +60,14 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>UIControl+Combine.swift</string>
+						<string>ASControlNode+Combine.swift</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>UIControl+Combine.swift</key>
+						<key>ASControlNode+Combine.swift</key>
 						<dict>
 							<key>Path</key>
-							<string>UIControl+Combine.swift</string>
+							<string>ASControlNode+Combine.swift</string>
 							<key>SortOrder</key>
 							<string>190</string>
 						</dict>
@@ -114,6 +114,22 @@
 				<key>false</key>
 				<dict/>
 			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>withSpriteKit</string>
+			<key>Required</key>
+			<string>true</string>
+			<key>Name</key>
+			<string>Adds SpriteKit file</string>
+			<key>Description</key>
+			<string>Whether this Combine+Texture+SpriteKit module contains a corresponding view with Storyboard</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<string>true</string>
 		</dict>
 	</array>
 </dict>
