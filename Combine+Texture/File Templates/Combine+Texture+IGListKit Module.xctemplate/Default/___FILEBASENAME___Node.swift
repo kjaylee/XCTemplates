@@ -14,11 +14,6 @@ import Combine
  * Since: ___DATE___
  */
 class ___VARIABLE_productName___Node: ASCollectionNode {
-    override init(collectionViewLayout layout: UICollectionViewLayout) {
-        super.init(collectionViewLayout: layout)
-        self.backgroundColor = .clear
-        self.alwaysBounceVertical = true
-    }
     override func didLoad() {
         //Main Thread
         super.didLoad()

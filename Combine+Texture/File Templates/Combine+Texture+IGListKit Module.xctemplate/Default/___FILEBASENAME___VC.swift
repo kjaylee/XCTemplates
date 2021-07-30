@@ -21,7 +21,10 @@ class ___FILEBASENAMEASIDENTIFIER___: ASDKViewController<___VARIABLE_productName
     override init() {
         viewModel = ___VARIABLE_productName___ViewModel()
         let layout = UICollectionViewFlowLayout()
-        super.init(node: ___VARIABLE_productName___Node(collectionViewLayout: layout))
+        let collectionNode = ___VARIABLE_productName___Node(collectionViewLayout: layout)
+        collectionNode.backgroundColor = .clear
+        collectionNode.alwaysBounceVertical = true
+        super.init(node: collectionNode)
         initialized()
         binded()
     }
@@ -40,11 +43,6 @@ class ___FILEBASENAMEASIDENTIFIER___: ASDKViewController<___VARIABLE_productName
         }.store(in: &self.subscriptions)
         return refreshControl
     }()
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        initialized()
-        binded()
-    }
     func initialized() {
         adapter.setASDKCollectionNode(self.node)
         adapter.dataSource = self
