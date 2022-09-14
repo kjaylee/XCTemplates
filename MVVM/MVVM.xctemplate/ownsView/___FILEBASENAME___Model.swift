@@ -2,7 +2,7 @@
 
 import Foundation
 /**
- ## 클래스 설명
+ ## 설명
  * ___VARIABLE_productName___Model
  * <# 요약 #>
  
@@ -12,6 +12,6 @@ import Foundation
  * Author: ___FULLUSERNAME___
  * Since: ___DATE___
  */
-class ___FILEBASENAMEASIDENTIFIER___ {
+struct ___FILEBASENAMEASIDENTIFIER___ {
     
 }
