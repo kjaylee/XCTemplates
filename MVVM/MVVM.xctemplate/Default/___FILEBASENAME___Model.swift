@@ -15,3 +15,11 @@ import Foundation
 struct ___FILEBASENAMEASIDENTIFIER___ {
     
 }
+/**
+ ## 설명
+ * <# 요약 #>
+ 
+ ## 기본정보
+ * Note: APP
+ * See: <# 제플린 없음 #>
+ */
