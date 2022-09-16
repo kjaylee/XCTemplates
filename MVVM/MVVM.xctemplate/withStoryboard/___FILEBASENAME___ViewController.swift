@@ -18,6 +18,7 @@ import SnapKit
  */
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     let viewModel: ___VARIABLE_productName___ViewModel
+    let disposeBag = DisposeBag()
     required init?(coder: NSCoder) {
         viewModel = ___VARIABLE_productName___ViewModel()
         super.init(coder: coder)

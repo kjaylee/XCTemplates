@@ -17,6 +17,7 @@ import RxCocoa
  */
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     let viewModel: ___VARIABLE_productName___ViewModel
+    let disposeBag = DisposeBag()
     init() {
         viewModel = ___VARIABLE_productName___ViewModel()
         super.init(nibName: nil, bundle: nil)
