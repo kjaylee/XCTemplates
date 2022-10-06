@@ -3,7 +3,6 @@
 import UIKit
 import RxSwift
 import RxCocoa
-
 /**
  ## 클래스 설명
  * ___VARIABLE_productName___ViewController
@@ -18,13 +17,16 @@ import RxCocoa
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     let viewModel: ___VARIABLE_productName___ViewModel
     let disposeBag = DisposeBag()
+
     init() {
         viewModel = ___VARIABLE_productName___ViewModel()
         super.init(nibName: nil, bundle: nil)
     }
+
     required init?(coder _: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

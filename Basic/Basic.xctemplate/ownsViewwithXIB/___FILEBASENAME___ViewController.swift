@@ -2,7 +2,6 @@
 
 import UIKit
 import SnapKit
-
 /**
  ## 클래스 설명
  * ___VARIABLE_productName___ViewController

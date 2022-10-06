@@ -4,7 +4,6 @@ import UIKit
 import RxSwift
 import RxCocoa
 import SnapKit
-
 /**
  ## 클래스 설명
  * ___VARIABLE_productName___ViewController
@@ -19,10 +18,12 @@ import SnapKit
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     let viewModel: ___VARIABLE_productName___ViewModel
     let disposeBag = DisposeBag()
+
     required init?(coder: NSCoder) {
         viewModel = ___VARIABLE_productName___ViewModel()
         super.init(coder: coder)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
