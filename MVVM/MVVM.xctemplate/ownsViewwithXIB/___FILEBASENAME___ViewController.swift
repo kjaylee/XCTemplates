@@ -52,17 +52,10 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 /**
 extension ___FILEBASENAMEASIDENTIFIER___ {
     static func instance() -> ___FILEBASENAMEASIDENTIFIER___ {
-        if #available(iOS 13.0, *) {
-            guard let vc = UIStoryboard(name: "___VARIABLE_productName___", bundle: nil).instantiateViewController(identifier: "___FILEBASENAMEASIDENTIFIER___") as? ___FILEBASENAMEASIDENTIFIER___ else {
-                fatalError("Not found ___VARIABLE_productName___ in storyboard.")
-            }
-            return vc
-        } else {
-            guard let vc = UIStoryboard(name: "___VARIABLE_productName___", bundle: nil).instantiateViewController(withIdentifier: "___FILEBASENAMEASIDENTIFIER___") as? ___FILEBASENAMEASIDENTIFIER___ else {
-                fatalError("Not found ___VARIABLE_productName___ in storyboard.")
-            }
-            return vc
+        guard let vc = UIStoryboard(name: "___VARIABLE_productName___", bundle: nil).instantiateViewController(identifier: "___FILEBASENAMEASIDENTIFIER___") as? ___FILEBASENAMEASIDENTIFIER___ else {
+            fatalError("Not found ___VARIABLE_productName___ in storyboard.")
         }
+        return vc
     }
 }
 */
