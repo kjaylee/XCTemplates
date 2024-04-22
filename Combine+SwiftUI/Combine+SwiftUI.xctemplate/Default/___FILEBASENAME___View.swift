@@ -14,7 +14,7 @@ import Combine
  * Author:  ___FULLUSERNAME___
  * Since: ___DATE___
  */
-struct ___FILEBASENAMEASIDENTIFIER___: View{
+struct ___FILEBASENAMEASIDENTIFIER___: View {
     private var cancellables = Set<AnyCancellable>()
     @StateObject var viewModel = ___VARIABLE_productName:identifier___ViewModel()
 
