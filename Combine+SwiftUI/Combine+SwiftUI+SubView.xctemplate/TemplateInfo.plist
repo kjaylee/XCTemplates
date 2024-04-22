@@ -5,17 +5,17 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Summary</key>
-	<string>Combine+SwiftUI Unit Tests</string>
+	<string>Combine+SwiftUI</string>
 	<key>Description</key>
-	<string>Combine+SwiftUI unit test files.</string>
+	<string>Combine+SwiftUI Subview classes.</string>
 	<key>SortOrder</key>
-	<string>3</string>
+	<string>2</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>Combine+SwiftUI Unit Tests</string>
+	<string>Combine+SwiftUI</string>
 	<key>MainTemplateFiles</key>
 	<string>___FILEBASENAME___.swift</string>
 	<key>Platforms</key>
@@ -30,9 +30,9 @@
 			<key>Required</key>
 			<string>true</string>
 			<key>Name</key>
-			<string>Name of the Basic to test:</string>
+			<string>Combine+SwiftUI name:</string>
 			<key>Description</key>
-			<string>The name of the Combine+SwiftUI to unit test for. Creates a test.</string>
+			<string>The name of the Combine+SpriteKit Subview to create</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>

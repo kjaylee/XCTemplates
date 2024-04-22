@@ -11,10 +11,9 @@
 	<key>SortOrder</key>
 	<string>1</string>
 	<key>AllowedTypes</key>
-	<dict>
-		<key>Item 0</key>
+	<array>
 		<string>public.swift-source</string>
-	</dict>
+	</array>
 	<key>DefaultCompletionName</key>
 	<string>Combine+SwiftUI</string>
 	<key>MainTemplateFiles</key>

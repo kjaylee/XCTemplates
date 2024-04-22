@@ -17,8 +17,8 @@ import Combine
 class ___FILEBASENAMEASIDENTIFIER___: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     var model: ___VARIABLE_productName:identifier___Model? {
-        didSet {
-            initialized(model: model)
+        willSet {
+            initialized(model: newValue)
         }
     }
     

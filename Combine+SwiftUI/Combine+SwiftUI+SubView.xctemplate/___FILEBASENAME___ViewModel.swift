@@ -15,15 +15,6 @@ import Combine
  * Since: ___DATE___
  */
 class ___FILEBASENAMEASIDENTIFIER___: ObservableObject {
-    private var cancellables = Set<AnyCancellable>()
-    var model: ___VARIABLE_productName:identifier___Model? {
-        willSet {
-            initialized(model: newValue)
-        }
-    }
     
-    private func initialized(model: ___VARIABLE_productName:identifier___Model?) {
-        //Do something...
-    }
 }
 

@@ -16,10 +16,10 @@ import Combine
  */
 struct ___FILEBASENAMEASIDENTIFIER___: View{
     private var cancellables = Set<AnyCancellable>()
-    @StateObject var viewModel = ___VARIABLE_productName:identifier___ViewModel()
+    @ObservedObject var viewModel = ___VARIABLE_productName:identifier___ViewModel()
 
-    init(model: ___VARIABLE_productName:identifier___Model) {
-        viewModel.model = model
+    init(viewModel: ___VARIABLE_productName:identifier___ViewModel) {
+        self.viewModel = viewModel
     }
 
     var body: some View {
@@ -28,5 +28,6 @@ struct ___FILEBASENAMEASIDENTIFIER___: View{
 }
 
 #Preview {
-    ___FILEBASENAMEASIDENTIFIER___(model: ___VARIABLE_productName:identifier___Model())
+    @StateObject var viewModel = ___VARIABLE_productName:identifier___ViewModel()
+    return ___FILEBASENAMEASIDENTIFIER___(viewModel: viewModel)
 }
