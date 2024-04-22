@@ -32,8 +32,8 @@ class ___FILEBASENAMEASIDENTIFIER___: UIHostingController<___VARIABLE_productNam
 }
 
 //MARK: Class method
-extension TestViewController {
-    static func instance(with model: TestModel) -> ___FILEBASENAMEASIDENTIFIER___ {
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    static func instance(with model: ___VARIABLE_productName:identifier___Model = ___VARIABLE_productName:identifier___Model()) -> ___FILEBASENAMEASIDENTIFIER___ {
         ___FILEBASENAMEASIDENTIFIER___(rootView: ___VARIABLE_productName:identifier___View(model: model))
     }
 }
