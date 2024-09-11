@@ -27,7 +27,9 @@ import Combine
  * Since: ___DATE___
  */
 class ___FILEBASENAMEASIDENTIFIER___ {
+
     private var cancellables = Set<AnyCancellable>()
+    
 }
 
 
