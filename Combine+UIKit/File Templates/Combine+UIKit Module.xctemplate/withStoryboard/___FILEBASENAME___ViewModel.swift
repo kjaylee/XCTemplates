@@ -16,7 +16,7 @@ import Combine
  */
 class ___FILEBASENAMEASIDENTIFIER___ {
     private let model: ___VARIABLE_productName:identifier___Model
-    private var subscriptions = Set<AnyCancellable>()
+    private var cancellables = Set<AnyCancellable>()
     init(withModel model: ___VARIABLE_productName:identifier___Model = ___VARIABLE_productName___Model()) {
         self.model = model
     }

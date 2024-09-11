@@ -4,7 +4,7 @@ import UIKit
 import Combine
 /**
  ## 클래스 설명
- * ___VARIABLE_productName___VC
+ * ___VARIABLE_productName___ViewController
  * <# 요약 #>
 
  ## 기본정보
@@ -41,7 +41,7 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 extension ___FILEBASENAMEASIDENTIFIER___ {
     static func instance() -> ___FILEBASENAMEASIDENTIFIER___ {
         let name = "___VARIABLE_productName___"
-        guard let vc = UIStoryboard(name: name, bundle: nil).instantiateViewController(identifier: name + "VC") as? ___FILEBASENAMEASIDENTIFIER___ else {
+        guard let vc = UIStoryboard(name: name, bundle: nil).instantiateViewController(identifier: name + "ViewController") as? ___FILEBASENAMEASIDENTIFIER___ else {
             fatalError("Failed load ___VARIABLE_productName___ in storyboard.")
         }
         return vc
