@@ -15,7 +15,6 @@ extension UIControl {
         let control: Control
         let event: UIControl.Event
         var subscriber: EventSubscriber?
-        
         var currentDemand: Subscribers.Demand = .none
 
         init(control: Control, event: UIControl.Event, subscriber: EventSubscriber) {
