@@ -1,5 +1,5 @@
 //___FILEHEADER___
-/* ___VARIABLE_productName___VC에 추가
+/* ___VARIABLE_productName___ViewController에 추가
  private let viewModel: ___VARIABLE_productName___ViewModel
  private var subscriptions = Set<AnyCancellable>()
  init(nibName: String?) {
@@ -27,10 +27,7 @@ import Combine
  * Since: ___DATE___
  */
 class ___FILEBASENAMEASIDENTIFIER___ {
-    private let model: ___VARIABLE_productName:identifier___Model
-    init(withModel model: ___VARIABLE_productName:identifier___Model = ___VARIABLE_productName___Model()) {
-        self.model = model
-    }
+    private var cancellables = Set<AnyCancellable>()
 }
 
 

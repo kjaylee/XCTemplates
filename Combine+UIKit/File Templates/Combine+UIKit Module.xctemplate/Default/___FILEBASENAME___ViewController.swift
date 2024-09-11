@@ -16,7 +16,7 @@ import Combine
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     
     private let viewModel: ___VARIABLE_productName___ViewModel
-    private var subscriptions = Set<AnyCancellable>()
+    private var cancellables = Set<AnyCancellable>()
     
     init(nibName: String?) {
         viewModel = ___VARIABLE_productName___ViewModel()

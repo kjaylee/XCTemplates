@@ -15,10 +15,5 @@ import Combine
  * Since: ___DATE___
  */
 class ___FILEBASENAMEASIDENTIFIER___ {
-    private let model: ___VARIABLE_productName:identifier___Model
-    private var subscriptions = Set<AnyCancellable>()
-    
-    init(withModel model: ___VARIABLE_productName:identifier___Model = ___VARIABLE_productName___Model()) {
-        self.model = model
-    }
+    private var cancellables = Set<AnyCancellable>()
 }
